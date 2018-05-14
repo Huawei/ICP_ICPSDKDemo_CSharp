@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ICP.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F9B5D2F-73F3-43C3-BFF4-F9CCF638BFF7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ICPDemo</RootNamespace>
+    <AssemblyName>ICPDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AD, Version=6.6.10.100, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AD.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.ACTIVEMAILLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AxInterop.ACTIVEMAILLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxVRCCONTROLLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\AxVRCCONTROLLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Huawei.Device, Version=6.6.10.100, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Com.Huawei.Device.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Huawei.Device.Contract, Version=6.6.10.100, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Com.Huawei.Device.Contract.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Huawei.Device.ServiceModel, Version=6.6.10.100, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Com.Huawei.Device.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Microsoft.Web.Services3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CallInfo.cs" />
+    <Compile Include="CommonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForm.Designer.cs">
+      <DependentUpon>CommonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="Form_Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Config.Designer.cs">
+      <DependentUpon>Form_Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgentIdWithMediaType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgentIdWithMediaType.Designer.cs">
+      <DependentUpon>frmAgentIdWithMediaType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnswer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnswer.Designer.cs">
+      <DependentUpon>frmAnswer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHold.Designer.cs">
+      <DependentUpon>FrmHold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocalVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocalVideo.Designer.cs">
+      <DependentUpon>frmLocalVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMultiMediaChatForTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMultiMediaChatForTest.Designer.cs">
+      <DependentUpon>frmMultiMediaChatForTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoteVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoteVideo.Designer.cs">
+      <DependentUpon>frmRemoteVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetCustomizedRecordInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetCustomizedRecordInfo.Designer.cs">
+      <DependentUpon>frmSetCustomizedRecordInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGetSoundDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGetSoundDevice.Designer.cs">
+      <DependentUpon>frmGetSoundDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMixedGroupConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMixedGroupConfig.designer.cs">
+      <DependentUpon>frmMixedGroupConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMixedGroupUserStateConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMixedGroupUserStateConfig.designer.cs">
+      <DependentUpon>frmMixedGroupUserStateConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQueryTalkingGroupInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQueryTalkingGroupInfo.Designer.cs">
+      <DependentUpon>frmQueryTalkingGroupInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendMessage.Designer.cs">
+      <DependentUpon>frmSendMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddRedList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddRedList.Designer.cs">
+      <DependentUpon>frmAddRedList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBlackList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBlackList.Designer.cs">
+      <DependentUpon>frmBlackList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangeMemberMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangeMemberMode.Designer.cs">
+      <DependentUpon>frmChangeMemberMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePwd.Designer.cs">
+      <DependentUpon>frmChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateMeeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateMeeting.Designer.cs">
+      <DependentUpon>frmCreateMeeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeviceId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeviceId.Designer.cs">
+      <DependentUpon>frmDeviceId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDial.Designer.cs">
+      <DependentUpon>frmDial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmailConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmailConfig.Designer.cs">
+      <DependentUpon>frmEmailConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmId.Designer.cs">
+      <DependentUpon>frmId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLanguageSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanguageSelect.Designer.cs">
+      <DependentUpon>frmLanguageSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainDeviceCallback.cs" />
+    <Compile Include="frmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfig.Designer.cs">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeeting.Designer.cs">
+      <DependentUpon>frmMeeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPollingCall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPollingCall.Designer.cs">
+      <DependentUpon>frmPollingCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQueryCallList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQueryCallList.Designer.cs">
+      <DependentUpon>FrmQueryCallList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQueryLostCalls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQueryLostCalls.Designer.cs">
+      <DependentUpon>frmQueryLostCalls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetCustomerLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetCustomerLevel.Designer.cs">
+      <DependentUpon>frmSetCustomerLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReplySMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReplySMS.Designer.cs">
+      <DependentUpon>frmReplySMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetSoundDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetSoundDevice.Designer.cs">
+      <DependentUpon>frmSetSoundDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeviceIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeviceIndex.Designer.cs">
+      <DependentUpon>frmDeviceIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetVolume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetVolume.Designer.cs">
+      <DependentUpon>FrmSetVolume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSkills.Designer.cs">
+      <DependentUpon>frmSkills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStopEmergencyNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStopEmergencyNote.Designer.cs">
+      <DependentUpon>frmStopEmergencyNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSubscribeEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSubscribeEvent.Designer.cs">
+      <DependentUpon>frmSubscribeEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuperviseSwitch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuperviseSwitch.Designer.cs">
+      <DependentUpon>frmSuperviseSwitch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTalkingGroupConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTalkingGroupConfig.designer.cs">
+      <DependentUpon>frmTalkingGroupConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTalkingGroupRecordSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTalkingGroupRecordSearch.Designer.cs">
+      <DependentUpon>frmTalkingGroupRecordSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTalkingGroupState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTalkingGroupState.Designer.cs">
+      <DependentUpon>frmTalkingGroupState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransferToSkillGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransferToSkillGroup.Designer.cs">
+      <DependentUpon>frmTransferToSkillGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransToIVR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransToIVR.designer.cs">
+      <DependentUpon>frmTransToIVR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnifiedLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnifiedLogin.Designer.cs">
+      <DependentUpon>frmUnifiedLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUportalLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUportalLogin.Designer.cs">
+      <DependentUpon>frmUportalLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVolume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVolume.Designer.cs">
+      <DependentUpon>frmVolume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGetVolume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGetVolume.Designer.cs">
+      <DependentUpon>FrmGetVolume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="MsgBox.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmAgentId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgentId.Designer.cs">
+      <DependentUpon>frmAgentId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\zh-CN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zh-CN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmVrcAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVrcAgent.Designer.cs">
+      <DependentUpon>frmVrcAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rest.Designer.cs">
+      <DependentUpon>Rest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecordBackplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecordBackplay.Designer.cs">
+      <DependentUpon>frmRecordBackplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVideo.Designer.cs">
+      <DependentUpon>frmVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\model\CallInfoOnAidDevice.cs" />
+    <Compile Include="src\model\ToBeSwitchedCallInfo.cs" />
+    <EmbeddedResource Include="CommonForm.resx">
+      <DependentUpon>CommonForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Config.resx">
+      <DependentUpon>Form_Config.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgentIdWithMediaType.resx">
+      <DependentUpon>frmAgentIdWithMediaType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnswer.resx">
+      <DependentUpon>frmAnswer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHold.resx">
+      <DependentUpon>FrmHold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalVideo.resx">
+      <DependentUpon>frmLocalVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMultiMediaChatForTest.resx">
+      <DependentUpon>frmMultiMediaChatForTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoteVideo.resx">
+      <DependentUpon>frmRemoteVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetCustomizedRecordInfo.resx">
+      <DependentUpon>frmSetCustomizedRecordInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGetSoundDevice.resx">
+      <DependentUpon>frmGetSoundDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMixedGroupConfig.resx">
+      <DependentUpon>frmMixedGroupConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMixedGroupUserStateConfig.resx">
+      <DependentUpon>frmMixedGroupUserStateConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueryTalkingGroupInfo.resx">
+      <DependentUpon>frmQueryTalkingGroupInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendMessage.resx">
+      <DependentUpon>frmSendMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddRedList.resx">
+      <DependentUpon>frmAddRedList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBlackList.resx">
+      <DependentUpon>frmBlackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangeMemberMode.resx">
+      <DependentUpon>frmChangeMemberMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePwd.resx">
+      <DependentUpon>frmChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateMeeting.resx">
+      <DependentUpon>frmCreateMeeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeviceId.resx">
+      <DependentUpon>frmDeviceId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDial.resx">
+      <DependentUpon>frmDial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmailConfig.resx">
+      <DependentUpon>frmEmailConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmId.resx">
+      <DependentUpon>frmId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLanguageSelect.resx">
+      <DependentUpon>frmLanguageSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfig.resx">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeeting.resx">
+      <DependentUpon>frmMeeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPollingCall.resx">
+      <DependentUpon>frmPollingCall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQueryCallList.resx">
+      <DependentUpon>FrmQueryCallList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueryLostCalls.resx">
+      <DependentUpon>frmQueryLostCalls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetCustomerLevel.resx">
+      <DependentUpon>frmSetCustomerLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReplySMS.resx">
+      <DependentUpon>frmReplySMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetSoundDevice.resx">
+      <DependentUpon>frmSetSoundDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeviceIndex.resx">
+      <DependentUpon>frmDeviceIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetVolume.resx">
+      <DependentUpon>FrmSetVolume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSkills.resx">
+      <DependentUpon>frmSkills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStopEmergencyNote.resx">
+      <DependentUpon>frmStopEmergencyNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSubscribeEvent.resx">
+      <DependentUpon>frmSubscribeEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuperviseSwitch.resx">
+      <DependentUpon>frmSuperviseSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTalkingGroupConfig.resx">
+      <DependentUpon>frmTalkingGroupConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTalkingGroupRecordSearch.resx">
+      <DependentUpon>frmTalkingGroupRecordSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTalkingGroupState.resx">
+      <DependentUpon>frmTalkingGroupState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransferToSkillGroup.resx">
+      <DependentUpon>frmTransferToSkillGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransToIVR.resx">
+      <DependentUpon>frmTransToIVR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnifiedLogin.resx">
+      <DependentUpon>frmUnifiedLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUportalLogin.resx">
+      <DependentUpon>frmUportalLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVolume.resx">
+      <DependentUpon>frmVolume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgentId.resx">
+      <DependentUpon>frmAgentId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGetVolume.resx">
+      <DependentUpon>FrmGetVolume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>zh-CN.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rest.resx">
+      <DependentUpon>Rest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecordBackplay.resx">
+      <DependentUpon>frmRecordBackplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVideo.resx">
+      <DependentUpon>frmVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVrcAgent.resx">
+      <DependentUpon>frmVrcAgent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="filesetting.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ICP.ico" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Content Include="RegOCX.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="wse3policyCache.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

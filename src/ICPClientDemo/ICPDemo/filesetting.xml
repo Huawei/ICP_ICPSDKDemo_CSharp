@@ -1,0 +1,17 @@
+<files>
+	<file>
+		<type>image</type>
+		<size>2</size>
+		<format>PNG,JPEG,JPG,GIF</format>
+	</file>
+	<file>
+		<type>voice</type>
+		<size>2</size>
+		<format>MP3</format>
+	</file>
+	<file>
+		<type>video</type>
+		<size>10</size>
+		<format>MP4</format>
+	</file>
+</files>

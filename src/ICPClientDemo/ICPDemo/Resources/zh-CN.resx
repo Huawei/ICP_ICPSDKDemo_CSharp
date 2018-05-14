@@ -1,0 +1,1329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelAutoEnterIdle" xml:space="preserve">
+    <value>取消释放后置闲</value>
+  </data>
+  <data name="CancelRest" xml:space="preserve">
+    <value>取消休息</value>
+  </data>
+  <data name="ChangeAgentPwd" xml:space="preserve">
+    <value>修改密码</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="ConsultCall" xml:space="preserve">
+    <value>协商呼叫</value>
+  </data>
+  <data name="CreateMeeting" xml:space="preserve">
+    <value>创建会议</value>
+  </data>
+  <data name="Dial" xml:space="preserve">
+    <value>单呼</value>
+  </data>
+  <data name="EndConsultCall" xml:space="preserve">
+    <value>结束协商</value>
+  </data>
+  <data name="ExitMeeting" xml:space="preserve">
+    <value>退出会议</value>
+  </data>
+  <data name="Hangup" xml:space="preserve">
+    <value>挂机</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>保持呼叫</value>
+  </data>
+  <data name="HoldCancel" xml:space="preserve">
+    <value>取保持</value>
+  </data>
+  <data name="Initialize" xml:space="preserve">
+    <value>签入</value>
+  </data>
+  <data name="MakeMeeting" xml:space="preserve">
+    <value>形成会议</value>
+  </data>
+  <data name="Pickup" xml:space="preserve">
+    <value>摘机</value>
+  </data>
+  <data name="PollingCall" xml:space="preserve">
+    <value>轮询呼叫</value>
+  </data>
+  <data name="PTTOff" xml:space="preserve">
+    <value>放权</value>
+  </data>
+  <data name="PTTOn" xml:space="preserve">
+    <value>抢权</value>
+  </data>
+  <data name="QueryAgentStatus" xml:space="preserve">
+    <value>查询座席状态</value>
+  </data>
+  <data name="QueryAllAgentStatus" xml:space="preserve">
+    <value>查询组内所有座席</value>
+  </data>
+  <data name="QueryCallListByGroupId" xml:space="preserve">
+    <value>查询某组呼叫队列</value>
+  </data>
+  <data name="QueryCurrentCallingScope" xml:space="preserve">
+    <value>查询当前呼叫范围</value>
+  </data>
+  <data name="QueryMeetingMembers" xml:space="preserve">
+    <value>查询会议成员</value>
+  </data>
+  <data name="QuerySkillGroups" xml:space="preserve">
+    <value>查询技能队列信息</value>
+  </data>
+  <data name="Rest" xml:space="preserve">
+    <value>休息</value>
+  </data>
+  <data name="SetAutoEnterIdle" xml:space="preserve">
+    <value>呼叫释放后置闲</value>
+  </data>
+  <data name="SetBusy" xml:space="preserve">
+    <value>置忙</value>
+  </data>
+  <data name="SetIdle" xml:space="preserve">
+    <value>置闲</value>
+  </data>
+  <data name="SetWork" xml:space="preserve">
+    <value>开班</value>
+  </data>
+  <data name="SetWorkStop" xml:space="preserve">
+    <value>关班</value>
+  </data>
+  <data name="SingleStepMeeting" xml:space="preserve">
+    <value>单步会议</value>
+  </data>
+  <data name="SingleStepSuccTransfer" xml:space="preserve">
+    <value>呼叫成功转移</value>
+  </data>
+  <data name="SingleStepTransfer" xml:space="preserve">
+    <value>非监督转移</value>
+  </data>
+  <data name="TransferMeetingMaster" xml:space="preserve">
+    <value>转移会议主席</value>
+  </data>
+  <data name="TransferToAgent" xml:space="preserve">
+    <value>协商转移</value>
+  </data>
+  <data name="UnInitialize" xml:space="preserve">
+    <value>签出</value>
+  </data>
+  <data name="QueryWirelessInfo" xml:space="preserve">
+    <value>查询无线设备信息</value>
+  </data>
+  <data name="QueryAllWirelessDevice" xml:space="preserve">
+    <value>查询所有无线设备</value>
+  </data>
+  <data name="QueryUsingWirelessDevice" xml:space="preserve">
+    <value>当前使用的无线设备信息</value>
+  </data>
+  <data name="AddToBlackList" xml:space="preserve">
+    <value>新增黑名单</value>
+  </data>
+  <data name="RemoveFromBlackList" xml:space="preserve">
+    <value>取消黑名单</value>
+  </data>
+  <data name="AddToRedList" xml:space="preserve">
+    <value>新增优先级名单</value>
+  </data>
+  <data name="QueryBlackList" xml:space="preserve">
+    <value>查询是否黑名单</value>
+  </data>
+  <data name="QueryRedList" xml:space="preserve">
+    <value>优先级名单查询</value>
+  </data>
+  <data name="RemoveAllBlackList" xml:space="preserve">
+    <value>移除全部黑名单</value>
+  </data>
+  <data name="RemoveFromRedList" xml:space="preserve">
+    <value>取消优先级名单</value>
+  </data>
+  <data name="Barge" xml:space="preserve">
+    <value>强插</value>
+  </data>
+  <data name="ForceLogout" xml:space="preserve">
+    <value>强制退出</value>
+  </data>
+  <data name="ForceRelease" xml:space="preserve">
+    <value>强拆(拦截)</value>
+  </data>
+  <data name="GetCallOutNo" xml:space="preserve">
+    <value>获取呼出号</value>
+  </data>
+  <data name="GetRecordLength" xml:space="preserve">
+    <value>获取录音时长</value>
+  </data>
+  <data name="Monitor" xml:space="preserve">
+    <value>监听</value>
+  </data>
+  <data name="MonitorToBarge" xml:space="preserve">
+    <value>监听转强插</value>
+  </data>
+  <data name="MonitorToForceRelease" xml:space="preserve">
+    <value>监听转拦截</value>
+  </data>
+  <data name="PlayRecord" xml:space="preserve">
+    <value>播放录音</value>
+  </data>
+  <data name="PlayRecordPause" xml:space="preserve">
+    <value>暂停播放</value>
+  </data>
+  <data name="PlayRecordResume" xml:space="preserve">
+    <value>继续播放</value>
+  </data>
+  <data name="PlayRecordSeekTo" xml:space="preserve">
+    <value>播放进度跳转</value>
+  </data>
+  <data name="PlayRecordStop" xml:space="preserve">
+    <value>停止播放</value>
+  </data>
+  <data name="QueryAgentEmailCfgInfo" xml:space="preserve">
+    <value>查询座席邮件配置</value>
+  </data>
+  <data name="RemoveAllRedList" xml:space="preserve">
+    <value>移除全部优先级名单</value>
+  </data>
+  <data name="ReplyEmail" xml:space="preserve">
+    <value>回复邮件</value>
+  </data>
+  <data name="SelectPickup" xml:space="preserve">
+    <value>选择应答</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>发送邮件</value>
+  </data>
+  <data name="SnatchPickup" xml:space="preserve">
+    <value>代接</value>
+  </data>
+  <data name="UpdateMailConfig" xml:space="preserve">
+    <value>更新邮件配置</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="AgentId" xml:space="preserve">
+    <value>座席工号:</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>呼叫</value>
+  </data>
+  <data name="CallId" xml:space="preserve">
+    <value>呼叫ID:</value>
+  </data>
+  <data name="CallType" xml:space="preserve">
+    <value>呼叫类型:</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="DeviceId" xml:space="preserve">
+    <value>设备ID:</value>
+  </data>
+  <data name="GroupId" xml:space="preserve">
+    <value>技能队列ID:</value>
+  </data>
+  <data name="LockTime" xml:space="preserve">
+    <value>有效时间:</value>
+  </data>
+  <data name="MeetingId" xml:space="preserve">
+    <value>会议ID:</value>
+  </data>
+  <data name="NewMasterNumber" xml:space="preserve">
+    <value>新会议主席:</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="OldMasterNumber" xml:space="preserve">
+    <value>原会议主席:</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>电话号码:</value>
+  </data>
+  <data name="PhoneType" xml:space="preserve">
+    <value>电话类型:</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>电话级别:</value>
+  </data>
+  <data name="ReceiveMail" xml:space="preserve">
+    <value>接收邮件</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>超时时间:</value>
+  </data>
+  <data name="ReleaseMailCall" xml:space="preserve">
+    <value>停止邮件呼叫</value>
+  </data>
+  <data name="lblState" xml:space="preserve">
+    <value>状态管理</value>
+  </data>
+  <data name="label27" xml:space="preserve">
+    <value>呼叫控制</value>
+  </data>
+  <data name="lblBlack" xml:space="preserve">
+    <value>黑名单管理</value>
+  </data>
+  <data name="lblMeeting" xml:space="preserve">
+    <value>会议控制</value>
+  </data>
+  <data name="lblNote" xml:space="preserve">
+    <value>短信内容:</value>
+  </data>
+  <data name="lblQuery" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="lblRecordId" xml:space="preserve">
+    <value>录音ID:</value>
+  </data>
+  <data name="lblRed" xml:space="preserve">
+    <value>优先级名单管理</value>
+  </data>
+  <data name="lblSeekToTime" xml:space="preserve">
+    <value>跳转时间(ms):</value>
+  </data>
+  <data name="lblSkillID" xml:space="preserve">
+    <value>技能ID:</value>
+  </data>
+  <data name="OldPwd" xml:space="preserve">
+    <value>原密码:</value>
+  </data>
+  <data name="TabAgentInfo" xml:space="preserve">
+    <value>座席设置</value>
+  </data>
+  <data name="TabSettings" xml:space="preserve">
+    <value>环境设置</value>
+  </data>
+  <data name="NewPwd" xml:space="preserve">
+    <value>新密码:</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>短信</value>
+  </data>
+  <data name="WirelessType" xml:space="preserve">
+    <value>无线类型:</value>
+  </data>
+  <data name="EndMeeting" xml:space="preserve">
+    <value>结束会议</value>
+  </data>
+  <data name="InviteMeetingMember" xml:space="preserve">
+    <value>新增会议成员</value>
+  </data>
+  <data name="RemoveMeetingMember" xml:space="preserve">
+    <value>移除会议成员</value>
+  </data>
+  <data name="AgentReceiveAddress" xml:space="preserve">
+    <value>座席收件箱:</value>
+  </data>
+  <data name="AgentReceivePassWord" xml:space="preserve">
+    <value>座席收件密码:</value>
+  </data>
+  <data name="AgentReceiveUserName" xml:space="preserve">
+    <value>座席收件用户名:</value>
+  </data>
+  <data name="AgentSendAddress" xml:space="preserve">
+    <value>座席发件箱:</value>
+  </data>
+  <data name="lblCause" xml:space="preserve">
+    <value>休息原因:</value>
+  </data>
+  <data name="lblRestTime" xml:space="preserve">
+    <value>休息时长:</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>名单管理</value>
+  </data>
+  <data name="Phonology" xml:space="preserve">
+    <value>语音</value>
+  </data>
+  <data name="PublicMailAddress" xml:space="preserve">
+    <value>公共邮箱:</value>
+  </data>
+  <data name="ReceiveServerIP" xml:space="preserve">
+    <value>接收邮件IP:</value>
+  </data>
+  <data name="SendServerIP" xml:space="preserve">
+    <value>发送邮件IP:</value>
+  </data>
+  <data name="TargetNumber" xml:space="preserve">
+    <value>目标号码:</value>
+  </data>
+  <data name="UserReceiverAddress" xml:space="preserve">
+    <value>用户邮箱:</value>
+  </data>
+  <data name="Wireless" xml:space="preserve">
+    <value>无线</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>邮件</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>短信</value>
+  </data>
+  <data name="MonitorFunction" xml:space="preserve">
+    <value>质检</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>录音管理</value>
+  </data>
+  <data name="CloseEnded" xml:space="preserve">
+    <value>结束关闭</value>
+  </data>
+  <data name="BackUpWbebService" xml:space="preserve">
+    <value>备WebService地址:</value>
+  </data>
+  <data name="ExtensionLength" xml:space="preserve">
+    <value>分机长度:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>分机前缀:</value>
+  </data>
+  <data name="OutboundPrefix" xml:space="preserve">
+    <value>出局码:</value>
+  </data>
+  <data name="TransferAccessCode" xml:space="preserve">
+    <value>转接接入码:</value>
+  </data>
+  <data name="WebService" xml:space="preserve">
+    <value>WebService地址:</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>电话号码:</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="pwd" xml:space="preserve">
+    <value>签入密码:</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Tip" xml:space="preserve">
+    <value>请选择ICPDemo使用语言:</value>
+  </data>
+  <data name="AlreadyExist" xml:space="preserve">
+    <value>号码 '{0}' 已经存在.</value>
+  </data>
+  <data name="InputId" xml:space="preserve">
+    <value>请输入ID号.</value>
+  </data>
+  <data name="InputValue" xml:space="preserve">
+    <value>输入项不能为空.</value>
+  </data>
+  <data name="NotInitialized" xml:space="preserve">
+    <value>座席未签入.</value>
+  </data>
+  <data name="SeqNo" xml:space="preserve">
+    <value>序列号:</value>
+  </data>
+  <data name="InviteMembers" xml:space="preserve">
+    <value>批量添加成员</value>
+  </data>
+  <data name="RemoveMeetingMembers" xml:space="preserve">
+    <value>移除所有成员</value>
+  </data>
+  <data name="DisconnectCall" xml:space="preserve">
+    <value>释放呼叫</value>
+  </data>
+  <data name="QueryAllBlackList" xml:space="preserve">
+    <value>查询所有黑名单</value>
+  </data>
+  <data name="QueryAllRedList" xml:space="preserve">
+    <value>查询所有优先级名单</value>
+  </data>
+  <data name="TransferToSkillGroup" xml:space="preserve">
+    <value>通话转移到技能队列</value>
+  </data>
+  <data name="BeginTime" xml:space="preserve">
+    <value>开始时间:</value>
+  </data>
+  <data name="EndPosition" xml:space="preserve">
+    <value>结束位置:</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>结束时间:</value>
+  </data>
+  <data name="QueryLostCalls" xml:space="preserve">
+    <value>早释丢话记录</value>
+  </data>
+  <data name="QueryLostCallsCount" xml:space="preserve">
+    <value>早释丢话记录数量</value>
+  </data>
+  <data name="StartPosition" xml:space="preserve">
+    <value>开始位置:</value>
+  </data>
+  <data name="QueryAccessCode" xml:space="preserve">
+    <value>查询系统接入码</value>
+  </data>
+  <data name="DialEx" xml:space="preserve">
+    <value>单呼拓展</value>
+  </data>
+  <data name="AccessCode" xml:space="preserve">
+    <value>系统接入码:</value>
+  </data>
+  <data name="CreateMeetingEx" xml:space="preserve">
+    <value>创建会议拓展</value>
+  </data>
+  <data name="ConsultCallEx" xml:space="preserve">
+    <value>咨询拓展</value>
+  </data>
+  <data name="SingleStepMeetingEx" xml:space="preserve">
+    <value>单步会议拓展</value>
+  </data>
+  <data name="StopQuery" xml:space="preserve">
+    <value>取消查询</value>
+  </data>
+  <data name="PollingCallEx" xml:space="preserve">
+    <value>轮询呼拓展</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="AgentSendDTMF" xml:space="preserve">
+    <value>二次拨号</value>
+  </data>
+  <data name="CancelAutoAnswer" xml:space="preserve">
+    <value>取消自动应答</value>
+  </data>
+  <data name="QueryCallData" xml:space="preserve">
+    <value>查询呼叫数据</value>
+  </data>
+  <data name="SetAutoAnswer" xml:space="preserve">
+    <value>自动应答</value>
+  </data>
+  <data name="SetCallData" xml:space="preserve">
+    <value>设置呼叫数据</value>
+  </data>
+  <data name="SetCustomerLevel" xml:space="preserve">
+    <value>设置客户级别</value>
+  </data>
+  <data name="SetCustomizedRecordInfo" xml:space="preserve">
+    <value>设置录音关联业务信息</value>
+  </data>
+  <data name="RecordId" xml:space="preserve">
+    <value>录音文件地址</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>录音关联信息</value>
+  </data>
+  <data name="CallData" xml:space="preserve">
+    <value>呼叫数据</value>
+  </data>
+  <data name="QueryIVRInfo" xml:space="preserve">
+    <value>查询IVR</value>
+  </data>
+  <data name="TransToIVR" xml:space="preserve">
+    <value>呼叫转IVR</value>
+  </data>
+  <data name="TransferSMSToAgent" xml:space="preserve">
+    <value>转其他座席</value>
+  </data>
+  <data name="ReleaseTransfer" xml:space="preserve">
+    <value>释放转</value>
+  </data>
+  <data name="SuccTransfer" xml:space="preserve">
+    <value>挂起转</value>
+  </data>
+  <data name="QueryAgentIP" xml:space="preserve">
+    <value>查询座席IP</value>
+  </data>
+  <data name="StartMonitor" xml:space="preserve">
+    <value>开始监控</value>
+  </data>
+  <data name="StopMonitor" xml:space="preserve">
+    <value>停止监控</value>
+  </data>
+  <data name="VRC" xml:space="preserve">
+    <value>实时屏检</value>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>座席</value>
+  </data>
+  <data name="InitializeAgent" xml:space="preserve">
+    <value>座席初始化</value>
+  </data>
+  <data name="InitMonitorVRC" xml:space="preserve">
+    <value>质检初始化</value>
+  </data>
+  <data name="AgentUninitialize" xml:space="preserve">
+    <value>座席去初始化</value>
+  </data>
+  <data name="MonitorUninitialize" xml:space="preserve">
+    <value>质检去初始化</value>
+  </data>
+  <data name="Confid" xml:space="preserve">
+    <value>会议ID：</value>
+  </data>
+  <data name="ErrorCode" xml:space="preserve">
+    <value>错误码：</value>
+  </data>
+  <data name="JoinMultimediaConf" xml:space="preserve">
+    <value>参加多媒体会议</value>
+  </data>
+  <data name="MultimediaConf" xml:space="preserve">
+    <value>多媒体会议</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>结果：</value>
+  </data>
+  <data name="StopMultimediaConf" xml:space="preserve">
+    <value>停止多媒体会议</value>
+  </data>
+  <data name="SuperviseStop" xml:space="preserve">
+    <value>停止质检</value>
+  </data>
+  <data name="SuperviseSwitch" xml:space="preserve">
+    <value>质检切换</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>类型:</value>
+  </data>
+  <data name="Whisper" xml:space="preserve">
+    <value>耳语</value>
+  </data>
+  <data name="DRHuaweiBackupWebServiceUrl" xml:space="preserve">
+    <value>容灾节点备WebService地址:</value>
+  </data>
+  <data name="DRHuaweiWebServiceUrl" xml:space="preserve">
+    <value>容灾节点主WebService地址:</value>
+  </data>
+  <data name="ChangeMemberMode" xml:space="preserve">
+    <value>修改成员属性</value>
+  </data>
+  <data name="NotListen" xml:space="preserve">
+    <value>不能听</value>
+  </data>
+  <data name="NotTalking" xml:space="preserve">
+    <value>不能讲</value>
+  </data>
+  <data name="QueryMaliciousCalls" xml:space="preserve">
+    <value>查询骚扰记录</value>
+  </data>
+  <data name="CustomerLevel" xml:space="preserve">
+    <value>客户级别:</value>
+  </data>
+  <data name="QueryAgentSkillGroups" xml:space="preserve">
+    <value>查询座席技能配置</value>
+  </data>
+  <data name="QuerySkillGroupStatus" xml:space="preserve">
+    <value>查询队列状态</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>发送便签</value>
+  </data>
+  <data name="AgentMessage" xml:space="preserve">
+    <value>便签消息:</value>
+  </data>
+  <data name="Mute" xml:space="preserve">
+    <value>静音</value>
+  </data>
+  <data name="QueryCallInfo" xml:space="preserve">
+    <value>查询呼叫信息</value>
+  </data>
+  <data name="UnMute" xml:space="preserve">
+    <value>取消静音</value>
+  </data>
+  <data name="QueryCallIdOnAgent" xml:space="preserve">
+    <value>查询座席CallId</value>
+  </data>
+  <data name="lblFunction" xml:space="preserve">
+    <value>功能菜单</value>
+  </data>
+  <data name="ResetAgentSkill" xml:space="preserve">
+    <value>重置技能队列</value>
+  </data>
+  <data name="IsEnableACW" xml:space="preserve">
+    <value>启用整理态</value>
+  </data>
+  <data name="ExitACW" xml:space="preserve">
+    <value>退出整理态</value>
+  </data>
+  <data name="EventType" xml:space="preserve">
+    <value>事件类型：</value>
+  </data>
+  <data name="StopSubscribeAgentEvent" xml:space="preserve">
+    <value>取消座席事件订阅</value>
+  </data>
+  <data name="SubscribeAgentEvent" xml:space="preserve">
+    <value>订阅座席事件</value>
+  </data>
+  <data name="HangupVCCall" xml:space="preserve">
+    <value>VC挂机</value>
+  </data>
+  <data name="PickupVCCall" xml:space="preserve">
+    <value>VC摘机</value>
+  </data>
+  <data name="VCPhoneNumber" xml:space="preserve">
+    <value>VC电话号码:</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="PhoneLinkage" xml:space="preserve">
+    <value>话机联动:</value>
+  </data>
+  <data name="PutAgain" xml:space="preserve">
+    <value>再次输入新密码:</value>
+  </data>
+  <data name="HttpAlarm" xml:space="preserve">
+    <value>不使用HTTPS协议存在安全风险。</value>
+  </data>
+  <data name="CertificateNotSecure" xml:space="preserve">
+    <value>访问的HTTPS服务的证书存在安全风险，是否继续？</value>
+  </data>
+  <data name="AddToBlackListEx" xml:space="preserve">
+    <value>新增黑名单扩展</value>
+  </data>
+  <data name="QueryAllBlackListEx" xml:space="preserve">
+    <value>查询所有黑名单扩展</value>
+  </data>
+  <data name="QueryBlackListEx" xml:space="preserve">
+    <value>查询是否黑名单扩展</value>
+  </data>
+  <data name="RecordPath" xml:space="preserve">
+    <value>录音地址:</value>
+  </data>
+  <data name="DownloadFormat" xml:space="preserve">
+    <value>下载格式:</value>
+  </data>
+  <data name="DownloadRecord" xml:space="preserve">
+    <value>下载录音</value>
+  </data>
+  <data name="StorePath" xml:space="preserve">
+    <value>本地地址:</value>
+  </data>
+  <data name="IsForceLogin" xml:space="preserve">
+    <value>强制登录</value>
+  </data>
+  <data name="LowPriority" xml:space="preserve">
+    <value>降级</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="LoginToUPortal" xml:space="preserve">
+    <value>登录UPortal</value>
+  </data>
+  <data name="LogoutFromUPortal" xml:space="preserve">
+    <value>登出UPortal</value>
+  </data>
+  <data name="MixedGroupCallEnd" xml:space="preserve">
+    <value>结束混合群组呼叫</value>
+  </data>
+  <data name="MixedGroupCallStart" xml:space="preserve">
+    <value>开始混合群组呼叫</value>
+  </data>
+  <data name="MixedGroupChangeUserState" xml:space="preserve">
+    <value>更改混合群组用户状态</value>
+  </data>
+  <data name="PhoneAnswer" xml:space="preserve">
+    <value>应答</value>
+  </data>
+  <data name="PhoneGetDeviceVolume" xml:space="preserve">
+    <value>查询音频设备音量</value>
+  </data>
+  <data name="PhoneGetSoundDevice" xml:space="preserve">
+    <value>获取音频设备</value>
+  </data>
+  <data name="PhoneGetVolume" xml:space="preserve">
+    <value>获取音量</value>
+  </data>
+  <data name="PhoneGetVolumeGainByCall" xml:space="preserve">
+    <value>查询音量增益</value>
+  </data>
+  <data name="PhoneInitialize" xml:space="preserve">
+    <value>初始化</value>
+  </data>
+  <data name="PhoneMute" xml:space="preserve">
+    <value>静音</value>
+  </data>
+  <data name="PhoneRelease" xml:space="preserve">
+    <value>挂机</value>
+  </data>
+  <data name="PhoneSetDeviceVolume" xml:space="preserve">
+    <value>调整音频设备音量</value>
+  </data>
+  <data name="PhoneSetSoundDevice" xml:space="preserve">
+    <value>设置音频设备</value>
+  </data>
+  <data name="PhoneSetVolume" xml:space="preserve">
+    <value>设置音量</value>
+  </data>
+  <data name="PhoneSetVolumeGainByCall" xml:space="preserve">
+    <value>设置音量增益</value>
+  </data>
+  <data name="PhoneSwitchToAidDevice" xml:space="preserve">
+    <value>切换辅声卡设备</value>
+  </data>
+  <data name="PhoneSwitchToMainDevice" xml:space="preserve">
+    <value>切换主声卡设备</value>
+  </data>
+  <data name="PhoneUnInitialize" xml:space="preserve">
+    <value>去初始化</value>
+  </data>
+  <data name="PhoneUnmute" xml:space="preserve">
+    <value>取消静音</value>
+  </data>
+  <data name="RadioGroupQuery" xml:space="preserve">
+    <value>无线群组查询</value>
+  </data>
+  <data name="TalkingGroupAdd" xml:space="preserve">
+    <value>群组添加</value>
+  </data>
+  <data name="TalkingGroupDelete" xml:space="preserve">
+    <value>群组删除</value>
+  </data>
+  <data name="TalkingGroupDemonitor" xml:space="preserve">
+    <value>取消群组监控</value>
+  </data>
+  <data name="TalkingGroupDeselect" xml:space="preserve">
+    <value>取消群组选择</value>
+  </data>
+  <data name="TalkingGroupDesubscribe" xml:space="preserve">
+    <value>取消群组订阅</value>
+  </data>
+  <data name="TalkingGroupGetCallInfo" xml:space="preserve">
+    <value>查询群组呼叫信息</value>
+  </data>
+  <data name="TalkingGroupModify" xml:space="preserve">
+    <value>群组修改</value>
+  </data>
+  <data name="TalkingGroupMonitor" xml:space="preserve">
+    <value>群组监控</value>
+  </data>
+  <data name="TalkingGroupPTT" xml:space="preserve">
+    <value>群组抢权</value>
+  </data>
+  <data name="TalkingGroupQuery" xml:space="preserve">
+    <value>群组查询</value>
+  </data>
+  <data name="TalkingGroupQueryState" xml:space="preserve">
+    <value>群组状态查询</value>
+  </data>
+  <data name="TalkingGroupSelect" xml:space="preserve">
+    <value>群组选择</value>
+  </data>
+  <data name="TalkingGroupSubscribe" xml:space="preserve">
+    <value>群组订阅</value>
+  </data>
+  <data name="AidMic" xml:space="preserve">
+    <value>辅麦克风:</value>
+  </data>
+  <data name="AidSpeaker" xml:space="preserve">
+    <value>辅扬声器:</value>
+  </data>
+  <data name="VideoDevice" xml:space="preserve">
+    <value>视频设备:</value>
+  </data>
+  <data name="AudioInfo" xml:space="preserve">
+    <value>音频设置</value>
+  </data>
+  <data name="DispatchNumber" xml:space="preserve">
+    <value>软电话号码:</value>
+  </data>
+  <data name="GroupDePTT" xml:space="preserve">
+    <value>群组放权</value>
+  </data>
+  <data name="IsAidEnable" xml:space="preserve">
+    <value>启用辅助设备</value>
+  </data>
+  <data name="IsAutoAnswerIPCC" xml:space="preserve">
+    <value>自动应答IPCC</value>
+  </data>
+  <data name="IsAutoAnswerIPT" xml:space="preserve">
+    <value>自动应答IPT</value>
+  </data>
+  <data name="LocalAudioPort" xml:space="preserve">
+    <value>本地音频端口:</value>
+  </data>
+  <data name="LocalIP" xml:space="preserve">
+    <value>本地IP:</value>
+  </data>
+  <data name="LocalSipPort" xml:space="preserve">
+    <value>本地SIP端口:</value>
+  </data>
+  <data name="MainMic" xml:space="preserve">
+    <value>主麦克风:</value>
+  </data>
+  <data name="MainSpeaker" xml:space="preserve">
+    <value>主扬声器:</value>
+  </data>
+  <data name="PhoneEmbeddedMode" xml:space="preserve">
+    <value>话机内置</value>
+  </data>
+  <data name="PhoneLinkedMode" xml:space="preserve">
+    <value>话机联动</value>
+  </data>
+  <data name="DispatchPassword" xml:space="preserve">
+    <value>软电话密码:</value>
+  </data>
+  <data name="PhoneSettings" xml:space="preserve">
+    <value>话机设置</value>
+  </data>
+  <data name="PhoneUsedMode" xml:space="preserve">
+    <value>话机应用模式:</value>
+  </data>
+  <data name="SipRealName" xml:space="preserve">
+    <value>SIP域名:</value>
+  </data>
+  <data name="SipServerInfo" xml:space="preserve">
+    <value>SIP服务器地址:</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>账号:</value>
+  </data>
+  <data name="CountPerPage" xml:space="preserve">
+    <value>每页记录数:</value>
+  </data>
+  <data name="DeviceIndex" xml:space="preserve">
+    <value>设备索引:</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>设备类型:</value>
+  </data>
+  <data name="Expire" xml:space="preserve">
+    <value>超时时间:</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="IsSingleUser" xml:space="preserve">
+    <value>单用户</value>
+  </data>
+  <data name="MixedGroupID" xml:space="preserve">
+    <value>群组ID:</value>
+  </data>
+  <data name="MixedGroupState" xml:space="preserve">
+    <value>状态:</value>
+  </data>
+  <data name="MultiUsers" xml:space="preserve">
+    <value>多用户:</value>
+  </data>
+  <data name="OtherUserNumber" xml:space="preserve">
+    <value>其他用户号码:</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="PageNumber" xml:space="preserve">
+    <value>页码:</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="QueryType" xml:space="preserve">
+    <value>查询类型:</value>
+  </data>
+  <data name="RadioGroupNumber" xml:space="preserve">
+    <value>无线群组号:</value>
+  </data>
+  <data name="RecordFileAddr" xml:space="preserve">
+    <value>录音文件地址:</value>
+  </data>
+  <data name="ServerIP" xml:space="preserve">
+    <value>服务器地址:</value>
+  </data>
+  <data name="SingleUser" xml:space="preserve">
+    <value>单用户</value>
+  </data>
+  <data name="TalkingGroupDesc" xml:space="preserve">
+    <value>集群群组描述:</value>
+  </data>
+  <data name="TalkingGroupID" xml:space="preserve">
+    <value>群     组ID:</value>
+  </data>
+  <data name="TalkingGroupName" xml:space="preserve">
+    <value>集群群组名:</value>
+  </data>
+  <data name="TalkingGroupNumber" xml:space="preserve">
+    <value>集群群组号:</value>
+  </data>
+  <data name="TalkingGroupType" xml:space="preserve">
+    <value>集群群组类型:</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="UserNumber" xml:space="preserve">
+    <value>用户号码:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>用户:</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>用户类型:</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>音量:</value>
+  </data>
+  <data name="AidAudioDevice" xml:space="preserve">
+    <value>辅音频设备</value>
+  </data>
+  <data name="MainAudioDevice" xml:space="preserve">
+    <value>主音频设备</value>
+  </data>
+  <data name="AutoSubscribe" xml:space="preserve">
+    <value>自动处理订阅:</value>
+  </data>
+  <data name="KeepCommunicated" xml:space="preserve">
+    <value>长通模式</value>
+  </data>
+  <data name="Linkage" xml:space="preserve">
+    <value>联动模式</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>普通模式</value>
+  </data>
+  <data name="ConfigKey" xml:space="preserve">
+    <value>配置项Key:</value>
+  </data>
+  <data name="ConfigValue" xml:space="preserve">
+    <value>配置项值:</value>
+  </data>
+  <data name="GetConfig" xml:space="preserve">
+    <value>获取配置项</value>
+  </data>
+  <data name="SetConfig" xml:space="preserve">
+    <value>设置配置项</value>
+  </data>
+  <data name="ReceiveOnly" xml:space="preserve">
+    <value>只接收</value>
+  </data>
+  <data name="UninitialAll" xml:space="preserve">
+    <value>全部签出</value>
+  </data>
+  <data name="TransferConsulting" xml:space="preserve">
+    <value>咨询转</value>
+  </data>
+  <data name="StopSubscriberCallList" xml:space="preserve">
+    <value>取消订阅呼叫列表</value>
+  </data>
+  <data name="SubscriberCallList" xml:space="preserve">
+    <value>订阅呼叫列表</value>
+  </data>
+  <data name="QueryRleaseAuthority" xml:space="preserve">
+    <value>查询释放权限</value>
+  </data>
+  <data name="AidPolicy" xml:space="preserve">
+    <value>声卡切换策略:</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>缺省</value>
+  </data>
+  <data name="ConfScheduler" xml:space="preserve">
+    <value>会议预订者:</value>
+  </data>
+  <data name="FileFolder" xml:space="preserve">
+    <value>文件路径:</value>
+  </data>
+  <data name="GetNonce" xml:space="preserve">
+    <value>获取一次性口令</value>
+  </data>
+  <data name="IsConfRecord" xml:space="preserve">
+    <value>仅会议录音:</value>
+  </data>
+  <data name="Nonce" xml:space="preserve">
+    <value>动态口令:</value>
+  </data>
+  <data name="OnlyLocalRecord" xml:space="preserve">
+    <value>仅本站点录音:</value>
+  </data>
+  <data name="PageIndex" xml:space="preserve">
+    <value>页码:</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>页大小:</value>
+  </data>
+  <data name="RecordBackplay" xml:space="preserve">
+    <value>录音回放</value>
+  </data>
+  <data name="RecordFile" xml:space="preserve">
+    <value>录音文件:</value>
+  </data>
+  <data name="RecordList" xml:space="preserve">
+    <value>录音列表</value>
+  </data>
+  <data name="StopPlayEmergencyNote" xml:space="preserve">
+    <value>停止紧急呼叫提示音</value>
+  </data>
+  <data name="ServiceParamters" xml:space="preserve">
+    <value>业务参数</value>
+  </data>
+  <data name="EmergencyAnswer" xml:space="preserve">
+    <value>紧急呼叫应答</value>
+  </data>
+  <data name="LanguageSetting" xml:space="preserve">
+    <value>语言设置</value>
+  </data>
+  <data name="GetSysVersion" xml:space="preserve">
+    <value>获取服务器版本</value>
+  </data>
+  <data name="ServerURI" xml:space="preserve">
+    <value>服务器地址:</value>
+  </data>
+  <data name="NoteConfig" xml:space="preserve">
+    <value>提示音配置:</value>
+  </data>
+  <data name="NoPttTimeoutInterval" xml:space="preserve">
+    <value>无PTT超时时长:</value>
+  </data>
+  <data name="PttTimeoutInterval" xml:space="preserve">
+    <value>紧急呼叫话权超时时长:</value>
+  </data>
+  <data name="UnifiedLogin" xml:space="preserve">
+    <value>统一登录</value>
+  </data>
+  <data name="UnifiedLogout" xml:space="preserve">
+    <value>统一登出</value>
+  </data>
+  <data name="AgentType" xml:space="preserve">
+    <value>坐席类型</value>
+  </data>
+  <data name="CheckAgentState" xml:space="preserve">
+    <value>坐席非空闲时拒接来电</value>
+  </data>
+  <data name="MediaAbility" xml:space="preserve">
+    <value>媒体能力</value>
+  </data>
+  <data name="PreviewVideo" xml:space="preserve">
+    <value>预览视频</value>
+  </data>
+  <data name="GetVideoDevice" xml:space="preserve">
+    <value>获取视频设备</value>
+  </data>
+  <data name="VideoInfo" xml:space="preserve">
+    <value>视频设置</value>
+  </data>
+  <data name="AgentServLogin" xml:space="preserve">
+    <value>同步登陆Agent Server</value>
+  </data>
+  <data name="InitNumber" xml:space="preserve">
+    <value>同步登录话机号码:</value>
+  </data>
+  <data name="PhoneReg" xml:space="preserve">
+    <value>同步注册内置软电话</value>
+  </data>
+  <data name="LocalVideoFrm" xml:space="preserve">
+    <value>本地视频</value>
+  </data>
+  <data name="RemoteVideoFrm" xml:space="preserve">
+    <value>对端视频</value>
+  </data>
+  <data name="IsVideo" xml:space="preserve">
+    <value>是否打开视频</value>
+  </data>
+  <data name="VRPList" xml:space="preserve">
+    <value>入口VRP列表:</value>
+  </data>
+  <data name="VRC_AgentID" xml:space="preserve">
+    <value>座席端登录ID:</value>
+  </data>
+  <data name="VRC_SelfIP" xml:space="preserve">
+    <value>座席端登录IP地址:</value>
+  </data>
+  <data name="VRC_SelfPort" xml:space="preserve">
+    <value>座席端登录端口号:</value>
+  </data>
+  <data name="InitAgentVRC" xml:space="preserve">
+    <value>座席端屏检初始化</value>
+  </data>
+  <data name="Uninitialize_VRC" xml:space="preserve">
+    <value>屏检去初始化</value>
+  </data>
+  <data name="startRecordScreen" xml:space="preserve">
+    <value>开始录屏</value>
+  </data>
+  <data name="stopRecordScreen" xml:space="preserve">
+    <value>停止录屏</value>
+  </data>
+  <data name="RadioToRadio" xml:space="preserve">
+    <value>无线互通</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="NeedConfirm" xml:space="preserve">
+    <value>是否需要对端确认</value>
+  </data>
+  <data name="SendFile" xml:space="preserve">
+    <value>发送文件</value>
+  </data>
+  <data name="ReceiveFile" xml:space="preserve">
+    <value>接收文件</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>转移</value>
+  </data>
+  <data name="FileMediaType" xml:space="preserve">
+    <value>文件类型</value>
+  </data>
+  <data name="LocalPath" xml:space="preserve">
+    <value>本地路径</value>
+  </data>
+  <data name="RemotePath" xml:space="preserve">
+    <value>远程路径</value>
+  </data>
+  <data name="TargetAgentId" xml:space="preserve">
+    <value>目标坐席</value>
+  </data>
+  <data name="SingleStepSuccTransferEx" xml:space="preserve">
+    <value>成功转移_媒体能力</value>
+  </data>
+  <data name="EmergencyExit" xml:space="preserve">
+    <value>紧急呼叫离会</value>
+  </data>
+  <data name="GroupAlias" xml:space="preserve">
+    <value>群组别名</value>
+  </data>
+  <data name="IsConfigUser" xml:space="preserve">
+    <value>是否配置用户</value>
+  </data>
+  <data name="MixedAndTempGroupCallStart" xml:space="preserve">
+    <value>发起混编/临时群组呼叫</value>
+  </data>
+  <data name="Muted" xml:space="preserve">
+    <value>全场静音</value>
+  </data>
+  <data name="ReservedSwitch" xml:space="preserve">
+    <value>预留开关</value>
+  </data>
+  <data name="ReleaseAll" xml:space="preserve">
+    <value>释放调度席所有呼叫</value>
+  </data>
+</root>

@@ -1,0 +1,1323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelAutoEnterIdle" xml:space="preserve">
+    <value>Cancel Auto Enter Idle</value>
+  </data>
+  <data name="CancelRest" xml:space="preserve">
+    <value>Cancel Rest</value>
+  </data>
+  <data name="ChangeAgentPwd" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="ConsultCall" xml:space="preserve">
+    <value>Consulted Call</value>
+  </data>
+  <data name="CreateMeeting" xml:space="preserve">
+    <value>Create Conference</value>
+  </data>
+  <data name="Dial" xml:space="preserve">
+    <value>P2P Call</value>
+  </data>
+  <data name="EndConsultCall" xml:space="preserve">
+    <value>End Consultation</value>
+  </data>
+  <data name="ExitMeeting" xml:space="preserve">
+    <value>Exit Conference</value>
+  </data>
+  <data name="Hangup" xml:space="preserve">
+    <value>Hang up</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="HoldCancel" xml:space="preserve">
+    <value>Unhold</value>
+  </data>
+  <data name="Initialize" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="MakeMeeting" xml:space="preserve">
+    <value>Form Conference</value>
+  </data>
+  <data name="Pickup" xml:space="preserve">
+    <value>Off-Hook</value>
+  </data>
+  <data name="PollingCall" xml:space="preserve">
+    <value>Polling Call</value>
+  </data>
+  <data name="PTTOff" xml:space="preserve">
+    <value>Release the Floor</value>
+  </data>
+  <data name="PTTOn" xml:space="preserve">
+    <value>Preempt the Floor</value>
+  </data>
+  <data name="QueryAgentStatus" xml:space="preserve">
+    <value>Query Agent Status</value>
+  </data>
+  <data name="QueryAllAgentStatus" xml:space="preserve">
+    <value>Query All Agent Status</value>
+  </data>
+  <data name="QueryCallListByGroupId" xml:space="preserve">
+    <value>QueryCallListByGroupId</value>
+  </data>
+  <data name="QueryCurrentCallingScope" xml:space="preserve">
+    <value>QueryCurrentCallingScope</value>
+  </data>
+  <data name="QueryMeetingMembers" xml:space="preserve">
+    <value>QueryMeetingMembers</value>
+  </data>
+  <data name="QuerySkillGroups" xml:space="preserve">
+    <value>Query Skill Groups</value>
+  </data>
+  <data name="Rest" xml:space="preserve">
+    <value>Rest</value>
+  </data>
+  <data name="SetAutoEnterIdle" xml:space="preserve">
+    <value>Enter Idle After Call Release</value>
+  </data>
+  <data name="SetBusy" xml:space="preserve">
+    <value>Show Busy</value>
+  </data>
+  <data name="SetIdle" xml:space="preserve">
+    <value>Show Idle</value>
+  </data>
+  <data name="SetWork" xml:space="preserve">
+    <value>Enter Study</value>
+  </data>
+  <data name="SetWorkStop" xml:space="preserve">
+    <value>Exit Study</value>
+  </data>
+  <data name="SingleStepMeeting" xml:space="preserve">
+    <value>Single-Step Conference</value>
+  </data>
+  <data name="SingleStepSuccTransfer" xml:space="preserve">
+    <value>Success Transfer</value>
+  </data>
+  <data name="SingleStepTransfer" xml:space="preserve">
+    <value>Blind Transfer</value>
+  </data>
+  <data name="TransferMeetingMaster" xml:space="preserve">
+    <value>Transfer to Moderator</value>
+  </data>
+  <data name="TransferToAgent" xml:space="preserve">
+    <value>Consulted Transfer</value>
+  </data>
+  <data name="UnInitialize" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="QueryWirelessInfo" xml:space="preserve">
+    <value>Query Wireless Info</value>
+  </data>
+  <data name="QueryAllWirelessDevice" xml:space="preserve">
+    <value>Query All Wireless Device</value>
+  </data>
+  <data name="AddToBlackList" xml:space="preserve">
+    <value>Add Blacklist</value>
+  </data>
+  <data name="RemoveFromBlackList" xml:space="preserve">
+    <value>Cancel Blacklist</value>
+  </data>
+  <data name="AddToRedList" xml:space="preserve">
+    <value>Add Privileged Users</value>
+  </data>
+  <data name="QueryBlackList" xml:space="preserve">
+    <value>Query Black List</value>
+  </data>
+  <data name="QueryRedList" xml:space="preserve">
+    <value>Privileged Name Query</value>
+  </data>
+  <data name="RemoveAllBlackList" xml:space="preserve">
+    <value>Remove All Blacklisted Members</value>
+  </data>
+  <data name="RemoveFromRedList" xml:space="preserve">
+    <value>Cancel Privileged Member List</value>
+  </data>
+  <data name="Barge" xml:space="preserve">
+    <value>Force Barge</value>
+  </data>
+  <data name="ForceLogout" xml:space="preserve">
+    <value>Forced Exit</value>
+  </data>
+  <data name="ForceRelease" xml:space="preserve">
+    <value>Intercept</value>
+  </data>
+  <data name="GetCallOutNo" xml:space="preserve">
+    <value>Obtain Callout Number</value>
+  </data>
+  <data name="GetRecordLength" xml:space="preserve">
+    <value>Obtain Recording Duration</value>
+  </data>
+  <data name="Monitor" xml:space="preserve">
+    <value>Listen</value>
+  </data>
+  <data name="MonitorToBarge" xml:space="preserve">
+    <value>Listen to Barge</value>
+  </data>
+  <data name="MonitorToForceRelease" xml:space="preserve">
+    <value>Listen to Intercept</value>
+  </data>
+  <data name="PlayRecord" xml:space="preserve">
+    <value>Play Record</value>
+  </data>
+  <data name="PlayRecordPause" xml:space="preserve">
+    <value>Pause Playing</value>
+  </data>
+  <data name="PlayRecordResume" xml:space="preserve">
+    <value>Resume Record</value>
+  </data>
+  <data name="PlayRecordSeekTo" xml:space="preserve">
+    <value>Play Process Jump</value>
+  </data>
+  <data name="PlayRecordStop" xml:space="preserve">
+    <value>Stop Playing</value>
+  </data>
+  <data name="QueryAgentEmailCfgInfo" xml:space="preserve">
+    <value>QueryConfigInfo</value>
+  </data>
+  <data name="ReleaseMailCall" xml:space="preserve">
+    <value>Disconnect Email Session</value>
+  </data>
+  <data name="RemoveAllRedList" xml:space="preserve">
+    <value>Remove All Privileged Members</value>
+  </data>
+  <data name="ReplyEmail" xml:space="preserve">
+    <value>Reply to Email</value>
+  </data>
+  <data name="SelectPickup" xml:space="preserve">
+    <value>Select Call to Answer</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>Send Email</value>
+  </data>
+  <data name="SnatchPickup" xml:space="preserve">
+    <value>Pickup</value>
+  </data>
+  <data name="UpdateMailConfig" xml:space="preserve">
+    <value>Update Email Configuration</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AgentId" xml:space="preserve">
+    <value>Agent ID:</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="CallId" xml:space="preserve">
+    <value>Call ID:</value>
+  </data>
+  <data name="CallType" xml:space="preserve">
+    <value>Call type:</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="DeviceId" xml:space="preserve">
+    <value>Device ID:</value>
+  </data>
+  <data name="GroupId" xml:space="preserve">
+    <value>Skill queue ID:</value>
+  </data>
+  <data name="LockTime" xml:space="preserve">
+    <value>Validity period:</value>
+  </data>
+  <data name="MeetingId" xml:space="preserve">
+    <value>Conference ID:</value>
+  </data>
+  <data name="NewMasterNumber" xml:space="preserve">
+    <value>New moderator:</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OldMasterNumber" xml:space="preserve">
+    <value>Original moderator:</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Phone Number:</value>
+  </data>
+  <data name="PhoneType" xml:space="preserve">
+    <value>Phone Type:</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority:</value>
+  </data>
+  <data name="ReceiveMail" xml:space="preserve">
+    <value>Receive Mail</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>Time Out:</value>
+  </data>
+  <data name="lblState" xml:space="preserve">
+    <value>Status Mgt.</value>
+  </data>
+  <data name="lblFunction" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="label27" xml:space="preserve">
+    <value>Call Control</value>
+  </data>
+  <data name="lblBlack" xml:space="preserve">
+    <value>Blacklist Management</value>
+  </data>
+  <data name="lblMeeting" xml:space="preserve">
+    <value>Conference Control</value>
+  </data>
+  <data name="lblNote" xml:space="preserve">
+    <value>SMS content:</value>
+  </data>
+  <data name="lblQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="lblRecordId" xml:space="preserve">
+    <value>Recording ID:</value>
+  </data>
+  <data name="lblRed" xml:space="preserve">
+    <value>Privileged Name Mgt.</value>
+  </data>
+  <data name="lblSeekToTime" xml:space="preserve">
+    <value>Jump Time(ms):</value>
+  </data>
+  <data name="lblSkillID" xml:space="preserve">
+    <value>Skill ID:</value>
+  </data>
+  <data name="TabAgentInfo" xml:space="preserve">
+    <value>Agent Settings</value>
+  </data>
+  <data name="TabSettings" xml:space="preserve">
+    <value>Environment Settings</value>
+  </data>
+  <data name="NewPwd" xml:space="preserve">
+    <value>New password:</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="OldPwd" xml:space="preserve">
+    <value>Original password:</value>
+  </data>
+  <data name="WirelessType" xml:space="preserve">
+    <value>Wireless type</value>
+  </data>
+  <data name="EndMeeting" xml:space="preserve">
+    <value>End Conference</value>
+  </data>
+  <data name="InviteMeetingMember" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="RemoveMeetingMember" xml:space="preserve">
+    <value>Remove Conference Member</value>
+  </data>
+  <data name="lblCause" xml:space="preserve">
+    <value>Rest cause:</value>
+  </data>
+  <data name="lblRestTime" xml:space="preserve">
+    <value>Rest duration:</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Name List Management</value>
+  </data>
+  <data name="Phonology" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="TargetNumber" xml:space="preserve">
+    <value>Target number:</value>
+  </data>
+  <data name="Wireless" xml:space="preserve">
+    <value>Wireless</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="MonitorFunction" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Recording Mgt.</value>
+  </data>
+  <data name="AgentReceiveAddress" xml:space="preserve">
+    <value>Agent Inbox:</value>
+  </data>
+  <data name="AgentReceivePassWord" xml:space="preserve">
+    <value>Agent Inbox Password:</value>
+  </data>
+  <data name="AgentReceiveUserName" xml:space="preserve">
+    <value>Agent Inbox User Name:</value>
+  </data>
+  <data name="AgentSendAddress" xml:space="preserve">
+    <value>Agent Outbox:</value>
+  </data>
+  <data name="CloseEnded" xml:space="preserve">
+    <value>End Chat and Close Window</value>
+  </data>
+  <data name="SendServerIP" xml:space="preserve">
+    <value>Email Sending IP:</value>
+  </data>
+  <data name="BackUpWbebService" xml:space="preserve">
+    <value>Backup WebService:</value>
+  </data>
+  <data name="ExtensionLength" xml:space="preserve">
+    <value>Extension length:</value>
+  </data>
+  <data name="ExtensionPrefix" xml:space="preserve">
+    <value>Extension prefix:</value>
+  </data>
+  <data name="OutboundPrefix" xml:space="preserve">
+    <value>Outbound Prefix:</value>
+  </data>
+  <data name="PublicMailAddress" xml:space="preserve">
+    <value>Public mailbox:</value>
+  </data>
+  <data name="ReceiveServerIP" xml:space="preserve">
+    <value>Email receiving IP:</value>
+  </data>
+  <data name="TransferAccessCode" xml:space="preserve">
+    <value>Transfer Access Code:</value>
+  </data>
+  <data name="UserReceiverAddress" xml:space="preserve">
+    <value>User mailbox:</value>
+  </data>
+  <data name="WebService" xml:space="preserve">
+    <value>WebService Url:</value>
+  </data>
+  <data name="QueryUsingWirelessDevice" xml:space="preserve">
+    <value>Wireless Device Info</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Phone number:</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="pwd" xml:space="preserve">
+    <value>Sign-in password:</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Tip" xml:space="preserve">
+    <value>Please select a language for the ICPDemo:</value>
+  </data>
+  <data name="AlreadyExist" xml:space="preserve">
+    <value>Member {0} already exist.</value>
+  </data>
+  <data name="InputId" xml:space="preserve">
+    <value>Please input id.</value>
+  </data>
+  <data name="InputValue" xml:space="preserve">
+    <value>This field cannot be left empty.</value>
+  </data>
+  <data name="NotInitialized" xml:space="preserve">
+    <value>Device not initialized.</value>
+  </data>
+  <data name="SeqNo" xml:space="preserve">
+    <value>SN:</value>
+  </data>
+  <data name="InviteMembers" xml:space="preserve">
+    <value>Bulk Add Member</value>
+  </data>
+  <data name="RemoveMeetingMembers" xml:space="preserve">
+    <value>Remove All Members</value>
+  </data>
+  <data name="DisconnectCall" xml:space="preserve">
+    <value>Release Call</value>
+  </data>
+  <data name="QueryAllBlackList" xml:space="preserve">
+    <value>Query All Black List</value>
+  </data>
+  <data name="QueryAllRedList" xml:space="preserve">
+    <value>Query All Red List</value>
+  </data>
+  <data name="TransferToSkillGroup" xml:space="preserve">
+    <value>Transfer to Skill</value>
+  </data>
+  <data name="BeginTime" xml:space="preserve">
+    <value>Start time:</value>
+  </data>
+  <data name="EndPosition" xml:space="preserve">
+    <value>End location:</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>End time:</value>
+  </data>
+  <data name="QueryLostCalls" xml:space="preserve">
+    <value>Abandoned Call Records</value>
+  </data>
+  <data name="QueryLostCallsCount" xml:space="preserve">
+    <value>Abandoned Call Quantity</value>
+  </data>
+  <data name="StartPosition" xml:space="preserve">
+    <value>Start location:</value>
+  </data>
+  <data name="QueryAccessCode" xml:space="preserve">
+    <value>QueryAccessCode</value>
+  </data>
+  <data name="DialEx" xml:space="preserve">
+    <value>P2P Call (Extended)</value>
+  </data>
+  <data name="AccessCode" xml:space="preserve">
+    <value>Access code:</value>
+  </data>
+  <data name="CreateMeetingEx" xml:space="preserve">
+    <value>Create ConferenceEx</value>
+  </data>
+  <data name="ConsultCallEx" xml:space="preserve">
+    <value>ConsultCallEx</value>
+  </data>
+  <data name="SingleStepMeetingEx" xml:space="preserve">
+    <value>SingleStepMeetingEx</value>
+  </data>
+  <data name="StopQuery" xml:space="preserve">
+    <value>Cancel Query</value>
+  </data>
+  <data name="PollingCallEx" xml:space="preserve">
+    <value>Polling CallEx</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="AgentSendDTMF" xml:space="preserve">
+    <value>Two-Stage Dialing</value>
+  </data>
+  <data name="CancelAutoAnswer" xml:space="preserve">
+    <value>CancelAutoAnswer</value>
+  </data>
+  <data name="QueryCallData" xml:space="preserve">
+    <value>QueryCallData</value>
+  </data>
+  <data name="SetAutoAnswer" xml:space="preserve">
+    <value>Auto Answer</value>
+  </data>
+  <data name="SetCallData" xml:space="preserve">
+    <value>Set Call Data</value>
+  </data>
+  <data name="SetCustomerLevel" xml:space="preserve">
+    <value>Set Customer Level</value>
+  </data>
+  <data name="SetCustomizedRecordInfo" xml:space="preserve">
+    <value>Set Customized Record Info</value>
+  </data>
+  <data name="RecordId" xml:space="preserve">
+    <value>Record Id:</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data:</value>
+  </data>
+  <data name="CallData" xml:space="preserve">
+    <value>Call data:</value>
+  </data>
+  <data name="QueryIVRInfo" xml:space="preserve">
+    <value>QueryIVRInfo</value>
+  </data>
+  <data name="TransToIVR" xml:space="preserve">
+    <value>Transfer to IVR</value>
+  </data>
+  <data name="TransferSMSToAgent" xml:space="preserve">
+    <value>Transfer to Another Agent</value>
+  </data>
+  <data name="ReleaseTransfer" xml:space="preserve">
+    <value>Blind transfer</value>
+  </data>
+  <data name="SuccTransfer" xml:space="preserve">
+    <value>Keep mode Transfer</value>
+  </data>
+  <data name="QueryAgentIP" xml:space="preserve">
+    <value>QueryAgentIP</value>
+  </data>
+  <data name="StartMonitor" xml:space="preserve">
+    <value>Start Monitor</value>
+  </data>
+  <data name="StopMonitor" xml:space="preserve">
+    <value>Stop Monitoring</value>
+  </data>
+  <data name="VRC" xml:space="preserve">
+    <value>Real-Time Screen Inspection</value>
+  </data>
+  <data name="Agent" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="InitializeAgent" xml:space="preserve">
+    <value>Initialize Agent</value>
+  </data>
+  <data name="InitMonitorVRC" xml:space="preserve">
+    <value>Initialize Inspection</value>
+  </data>
+  <data name="AgentUninitialize" xml:space="preserve">
+    <value>Deinitialize Agent</value>
+  </data>
+  <data name="MonitorUninitialize" xml:space="preserve">
+    <value>Deinitialize Inspection</value>
+  </data>
+  <data name="Confid" xml:space="preserve">
+    <value>Confid：</value>
+  </data>
+  <data name="ErrorCode" xml:space="preserve">
+    <value>ErrorCode：</value>
+  </data>
+  <data name="JoinMultimediaConf" xml:space="preserve">
+    <value>JoinMultimediaConf</value>
+  </data>
+  <data name="MultimediaConf" xml:space="preserve">
+    <value>MultimediaConf</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result：</value>
+  </data>
+  <data name="StopMultimediaConf" xml:space="preserve">
+    <value>StopMultimediaConf</value>
+  </data>
+  <data name="SuperviseStop" xml:space="preserve">
+    <value>Stop Inspection</value>
+  </data>
+  <data name="SuperviseSwitch" xml:space="preserve">
+    <value>Switch Inspection</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="Whisper" xml:space="preserve">
+    <value>Whisper</value>
+  </data>
+  <data name="DRHuaweiBackupWebServiceUrl" xml:space="preserve">
+    <value>IP address of the standby WebService on the DR node:</value>
+  </data>
+  <data name="DRHuaweiWebServiceUrl" xml:space="preserve">
+    <value>IP address of the active WebService on the DR node:</value>
+  </data>
+  <data name="ChangeMemberMode" xml:space="preserve">
+    <value>Modify Member Attribute</value>
+  </data>
+  <data name="NotListen" xml:space="preserve">
+    <value>Not Listen</value>
+  </data>
+  <data name="NotTalking" xml:space="preserve">
+    <value>Not Talking</value>
+  </data>
+  <data name="QueryMaliciousCalls" xml:space="preserve">
+    <value>Query Malicious Calls</value>
+  </data>
+  <data name="CustomerLevel" xml:space="preserve">
+    <value>Customer level:</value>
+  </data>
+  <data name="QueryAgentSkillGroups" xml:space="preserve">
+    <value>QueryAgentSkillGroups</value>
+  </data>
+  <data name="QuerySkillGroupStatus" xml:space="preserve">
+    <value>QuerySkillGroupStatus</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Send Memo</value>
+  </data>
+  <data name="AgentMessage" xml:space="preserve">
+    <value>Memo:</value>
+  </data>
+  <data name="Mute" xml:space="preserve">
+    <value>Begin Mute User</value>
+  </data>
+  <data name="QueryCallInfo" xml:space="preserve">
+    <value>Query Call Info</value>
+  </data>
+  <data name="UnMute" xml:space="preserve">
+    <value>Unmute</value>
+  </data>
+  <data name="QueryCallIdOnAgent" xml:space="preserve">
+    <value>QueryCallIdOnAgent</value>
+  </data>
+  <data name="ResetAgentSkill" xml:space="preserve">
+    <value>Reset Skill Queue</value>
+  </data>
+  <data name="ExitACW" xml:space="preserve">
+    <value>Exit ACW</value>
+  </data>
+  <data name="IsEnableACW" xml:space="preserve">
+    <value>Enable ACW</value>
+  </data>
+  <data name="EventType" xml:space="preserve">
+    <value>Event Type:</value>
+  </data>
+  <data name="StopSubscribeAgentEvent" xml:space="preserve">
+    <value>Stop Subscribe Agent Event</value>
+  </data>
+  <data name="SubscribeAgentEvent" xml:space="preserve">
+    <value>Subscribe Agent Event</value>
+  </data>
+  <data name="HangupVCCall" xml:space="preserve">
+    <value>VC hang up</value>
+  </data>
+  <data name="PickupVCCall" xml:space="preserve">
+    <value>VC Off-Hook</value>
+  </data>
+  <data name="VCPhoneNumber" xml:space="preserve">
+    <value>VCPhoneNumber:</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="PhoneLinkage" xml:space="preserve">
+    <value>Phone Linkage:</value>
+  </data>
+  <data name="PutAgain" xml:space="preserve">
+    <value>Enter new password again:</value>
+  </data>
+  <data name="AddToBlackListEx" xml:space="preserve">
+    <value>Add Blacklist(Ex)</value>
+  </data>
+  <data name="QueryAllBlackListEx" xml:space="preserve">
+    <value>Query All Black List(Ex)</value>
+  </data>
+  <data name="QueryBlackListEx" xml:space="preserve">
+    <value>Query Black List(Ex)</value>
+  </data>
+  <data name="HttpAlarm" xml:space="preserve">
+    <value>It is not secure because it does not use HTTPS protocol.</value>
+  </data>
+  <data name="CertificateNotSecure" xml:space="preserve">
+    <value>The https service's certificate has not secure, whether to continue?</value>
+  </data>
+  <data name="RecordPath" xml:space="preserve">
+    <value>Record Path:</value>
+  </data>
+  <data name="DownloadFormat" xml:space="preserve">
+    <value>Download Format:</value>
+  </data>
+  <data name="DownloadRecord" xml:space="preserve">
+    <value>Download Record</value>
+  </data>
+  <data name="StorePath" xml:space="preserve">
+    <value>Store Path:</value>
+  </data>
+  <data name="IsForceLogin" xml:space="preserve">
+    <value>Force Login</value>
+  </data>
+  <data name="LowPriority" xml:space="preserve">
+    <value>LowPriority</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="LoginToUPortal" xml:space="preserve">
+    <value>Login UPortal</value>
+  </data>
+  <data name="LogoutFromUPortal" xml:space="preserve">
+    <value>Logout UPortal</value>
+  </data>
+  <data name="MixedGroupCallEnd" xml:space="preserve">
+    <value>MixedGroupCallEnd</value>
+  </data>
+  <data name="MixedGroupCallStart" xml:space="preserve">
+    <value>MixedGroupCallStart</value>
+  </data>
+  <data name="MixedGroupChangeUserState" xml:space="preserve">
+    <value>MixedGroupChangeUserState</value>
+  </data>
+  <data name="PhoneAnswer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="PhoneGetDeviceVolume" xml:space="preserve">
+    <value>GetAudioDeviceVolume</value>
+  </data>
+  <data name="PhoneGetSoundDevice" xml:space="preserve">
+    <value>Get Sound Device</value>
+  </data>
+  <data name="PhoneGetVolume" xml:space="preserve">
+    <value>Get Volume</value>
+  </data>
+  <data name="PhoneGetVolumeGainByCall" xml:space="preserve">
+    <value>Get Volume Gain</value>
+  </data>
+  <data name="PhoneInitialize" xml:space="preserve">
+    <value>Phone Init</value>
+  </data>
+  <data name="PhoneMute" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="PhoneRelease" xml:space="preserve">
+    <value>Hangup</value>
+  </data>
+  <data name="PhoneSetDeviceVolume" xml:space="preserve">
+    <value>SetAudioDeviceVolume</value>
+  </data>
+  <data name="PhoneSetSoundDevice" xml:space="preserve">
+    <value>Set Sound Device</value>
+  </data>
+  <data name="PhoneSetVolume" xml:space="preserve">
+    <value>Set Volume</value>
+  </data>
+  <data name="PhoneSetVolumeGainByCall" xml:space="preserve">
+    <value>Set Volume Gain</value>
+  </data>
+  <data name="PhoneSwitchToAidDevice" xml:space="preserve">
+    <value>SwitchToAidDevice</value>
+  </data>
+  <data name="PhoneSwitchToMainDevice" xml:space="preserve">
+    <value>SwitchToMainDevice</value>
+  </data>
+  <data name="PhoneUnInitialize" xml:space="preserve">
+    <value>Phone Uninit</value>
+  </data>
+  <data name="PhoneUnmute" xml:space="preserve">
+    <value>Unmute</value>
+  </data>
+  <data name="RadioGroupQuery" xml:space="preserve">
+    <value>Query Radio Group</value>
+  </data>
+  <data name="TalkingGroupAdd" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="TalkingGroupDelete" xml:space="preserve">
+    <value>Delete Group</value>
+  </data>
+  <data name="TalkingGroupDemonitor" xml:space="preserve">
+    <value>Demonitor Group</value>
+  </data>
+  <data name="TalkingGroupDeselect" xml:space="preserve">
+    <value>Deselect Group</value>
+  </data>
+  <data name="TalkingGroupDesubscribe" xml:space="preserve">
+    <value>Desubscribe Group</value>
+  </data>
+  <data name="TalkingGroupGetCallInfo" xml:space="preserve">
+    <value>Get Group Call Info</value>
+  </data>
+  <data name="TalkingGroupModify" xml:space="preserve">
+    <value>Modify Group</value>
+  </data>
+  <data name="TalkingGroupMonitor" xml:space="preserve">
+    <value>Monitor Group</value>
+  </data>
+  <data name="TalkingGroupPTT" xml:space="preserve">
+    <value>Talking Group PTT</value>
+  </data>
+  <data name="TalkingGroupQuery" xml:space="preserve">
+    <value>Query Talking Group</value>
+  </data>
+  <data name="TalkingGroupQueryState" xml:space="preserve">
+    <value>Query Group State</value>
+  </data>
+  <data name="TalkingGroupSelect" xml:space="preserve">
+    <value>Select Group</value>
+  </data>
+  <data name="TalkingGroupSubscribe" xml:space="preserve">
+    <value>Subsctribe Group</value>
+  </data>
+  <data name="AidMic" xml:space="preserve">
+    <value>Aid MIC:</value>
+  </data>
+  <data name="AidSpeaker" xml:space="preserve">
+    <value>Aid Speaker:</value>
+  </data>
+  <data name="VideoDevice" xml:space="preserve">
+    <value>VideoDevice:</value>
+  </data>
+  <data name="AudioInfo" xml:space="preserve">
+    <value>Audio Info</value>
+  </data>
+  <data name="DispatchNumber" xml:space="preserve">
+    <value>Dispatch Number:</value>
+  </data>
+  <data name="GroupDePTT" xml:space="preserve">
+    <value>Group DePTT</value>
+  </data>
+  <data name="IsAidEnable" xml:space="preserve">
+    <value>Is Aid Enable</value>
+  </data>
+  <data name="IsAutoAnswerIPCC" xml:space="preserve">
+    <value>Is Auto Answer IPCC</value>
+  </data>
+  <data name="IsAutoAnswerIPT" xml:space="preserve">
+    <value>Is Auto Answer IPT</value>
+  </data>
+  <data name="LocalAudioPort" xml:space="preserve">
+    <value>Loacal Audio Port:</value>
+  </data>
+  <data name="LocalIP" xml:space="preserve">
+    <value>Local IP:</value>
+  </data>
+  <data name="LocalSipPort" xml:space="preserve">
+    <value>Local SIP Port:</value>
+  </data>
+  <data name="MainMic" xml:space="preserve">
+    <value>Main MIC:</value>
+  </data>
+  <data name="MainSpeaker" xml:space="preserve">
+    <value>Main Speaker:</value>
+  </data>
+  <data name="DispatchPassword" xml:space="preserve">
+    <value>Dispatch Password:</value>
+  </data>
+  <data name="PhoneSettings" xml:space="preserve">
+    <value>Phone Settings</value>
+  </data>
+  <data name="PhoneUsedMode" xml:space="preserve">
+    <value>Phone Used Mode:</value>
+  </data>
+  <data name="SipRealName" xml:space="preserve">
+    <value>SIP Real Name:</value>
+  </data>
+  <data name="SipServerInfo" xml:space="preserve">
+    <value>SIP Server Info:</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="CountPerPage" xml:space="preserve">
+    <value>Count Per Page:</value>
+  </data>
+  <data name="DeviceIndex" xml:space="preserve">
+    <value>Device Index:</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>Device Type:</value>
+  </data>
+  <data name="Expire" xml:space="preserve">
+    <value>Expire:</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="IsSingleUser" xml:space="preserve">
+    <value>Is Single User:</value>
+  </data>
+  <data name="MixedGroupID" xml:space="preserve">
+    <value>Group ID:</value>
+  </data>
+  <data name="MixedGroupState" xml:space="preserve">
+    <value>State:</value>
+  </data>
+  <data name="MultiUsers" xml:space="preserve">
+    <value>Multi Users:</value>
+  </data>
+  <data name="OtherUserNumber" xml:space="preserve">
+    <value>Other User Num:</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="PageNumber" xml:space="preserve">
+    <value>Page Number:</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="QueryType" xml:space="preserve">
+    <value>Query Type:</value>
+  </data>
+  <data name="RadioGroupNumber" xml:space="preserve">
+    <value>Radio Group Num:</value>
+  </data>
+  <data name="RecordFileAddr" xml:space="preserve">
+    <value>Record File Addr:</value>
+  </data>
+  <data name="ServerIP" xml:space="preserve">
+    <value>Server IP:</value>
+  </data>
+  <data name="SingleUser" xml:space="preserve">
+    <value>Single User</value>
+  </data>
+  <data name="TalkingGroupDesc" xml:space="preserve">
+    <value>Talking Group Desc:</value>
+  </data>
+  <data name="TalkingGroupID" xml:space="preserve">
+    <value>Talking Group ID:</value>
+  </data>
+  <data name="TalkingGroupName" xml:space="preserve">
+    <value>Talking Group Name:</value>
+  </data>
+  <data name="TalkingGroupNumber" xml:space="preserve">
+    <value>Talking Group Num:</value>
+  </data>
+  <data name="TalkingGroupType" xml:space="preserve">
+    <value>Talking Group Type:</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="UserNumber" xml:space="preserve">
+    <value>User Number:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users:</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>User Type:</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Volume:</value>
+  </data>
+  <data name="AidAudioDevice" xml:space="preserve">
+    <value>Aid Audio Device</value>
+  </data>
+  <data name="MainAudioDevice" xml:space="preserve">
+    <value>Main Audio Device</value>
+  </data>
+  <data name="AutoSubscribe" xml:space="preserve">
+    <value>Auto Subscribe:</value>
+  </data>
+  <data name="KeepCommunicated" xml:space="preserve">
+    <value>Keep Communicated</value>
+  </data>
+  <data name="Linkage" xml:space="preserve">
+    <value>Linkage</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ConfigKey" xml:space="preserve">
+    <value>Config Key:</value>
+  </data>
+  <data name="ConfigValue" xml:space="preserve">
+    <value>Config Value:</value>
+  </data>
+  <data name="GetConfig" xml:space="preserve">
+    <value>Get Configuration</value>
+  </data>
+  <data name="SetConfig" xml:space="preserve">
+    <value>Set Configuration</value>
+  </data>
+  <data name="ReceiveOnly" xml:space="preserve">
+    <value>Receive Only</value>
+  </data>
+  <data name="UninitialAll" xml:space="preserve">
+    <value>Uninitial All</value>
+  </data>
+  <data name="TransferConsulting" xml:space="preserve">
+    <value>TransferConsulting</value>
+  </data>
+  <data name="StopSubscriberCallList" xml:space="preserve">
+    <value>StopSubscriberCallList</value>
+  </data>
+  <data name="SubscriberCallList" xml:space="preserve">
+    <value>SubscriberCallList</value>
+  </data>
+  <data name="QueryRleaseAuthority" xml:space="preserve">
+    <value>QueryRleaseAuthority</value>
+  </data>
+  <data name="AidPolicy" xml:space="preserve">
+    <value>Aid Policy:</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ConfScheduler" xml:space="preserve">
+    <value>Conf Scheduler:</value>
+  </data>
+  <data name="FileFolder" xml:space="preserve">
+    <value>File Folder:</value>
+  </data>
+  <data name="GetNonce" xml:space="preserve">
+    <value>Get Nonce</value>
+  </data>
+  <data name="IsConfRecord" xml:space="preserve">
+    <value>Is Conf Record:</value>
+  </data>
+  <data name="Nonce" xml:space="preserve">
+    <value>Nonce:</value>
+  </data>
+  <data name="OnlyLocalRecord" xml:space="preserve">
+    <value>Only Local Record:</value>
+  </data>
+  <data name="PageIndex" xml:space="preserve">
+    <value>Page Index:</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>Page Size:</value>
+  </data>
+  <data name="RecordBackplay" xml:space="preserve">
+    <value>Record Backplay</value>
+  </data>
+  <data name="RecordFile" xml:space="preserve">
+    <value>Record File:</value>
+  </data>
+  <data name="RecordList" xml:space="preserve">
+    <value>Record List</value>
+  </data>
+  <data name="StopPlayEmergencyNote" xml:space="preserve">
+    <value>Stop Emergency Note</value>
+  </data>
+  <data name="ServiceParamters" xml:space="preserve">
+    <value>Service Paramters</value>
+  </data>
+  <data name="EmergencyAnswer" xml:space="preserve">
+    <value>Emergency Answer</value>
+  </data>
+  <data name="LanguageSetting" xml:space="preserve">
+    <value>Language Setting</value>
+  </data>
+  <data name="GetSysVersion" xml:space="preserve">
+    <value>Get Server Version</value>
+  </data>
+  <data name="ServerURI" xml:space="preserve">
+    <value>Agent Server Addr:</value>
+  </data>
+  <data name="NoteConfig" xml:space="preserve">
+    <value>Note Config:</value>
+  </data>
+  <data name="NoPttTimeoutInterval" xml:space="preserve">
+    <value>NoPttTimeoutInterval:</value>
+  </data>
+  <data name="PttTimeoutInterval" xml:space="preserve">
+    <value>PttTimeoutInterval:</value>
+  </data>
+  <data name="UnifiedLogin" xml:space="preserve">
+    <value>Unified Login</value>
+  </data>
+  <data name="UnifiedLogout" xml:space="preserve">
+    <value>Unified Logout</value>
+  </data>
+  <data name="AgentType" xml:space="preserve">
+    <value>Agent Type</value>
+  </data>
+  <data name="CheckAgentState" xml:space="preserve">
+    <value>Reject Call When Agent Not Idle</value>
+  </data>
+  <data name="MediaAbility" xml:space="preserve">
+    <value>Media Ability</value>
+  </data>
+  <data name="PreviewVideo" xml:space="preserve">
+    <value>PreviewVideo</value>
+  </data>
+  <data name="GetVideoDevice" xml:space="preserve">
+    <value>Get Video Device</value>
+  </data>
+  <data name="VideoInfo" xml:space="preserve">
+    <value>Video Info</value>
+  </data>
+  <data name="AgentServLogin" xml:space="preserve">
+    <value>Synchronouly Login To Agent Server</value>
+  </data>
+  <data name="InitNumber" xml:space="preserve">
+    <value>Sync Login PhoneNumber:</value>
+  </data>
+  <data name="PhoneReg" xml:space="preserve">
+    <value>Sync Register SIP Phone</value>
+  </data>
+  <data name="LocalVideoFrm" xml:space="preserve">
+    <value>Local Video</value>
+  </data>
+  <data name="RemoteVideoFrm" xml:space="preserve">
+    <value>Remote Video</value>
+  </data>
+  <data name="IsVideo" xml:space="preserve">
+    <value>IsVideo</value>
+  </data>
+  <data name="VRPList" xml:space="preserve">
+    <value>EntryVRPList:</value>
+  </data>
+  <data name="VRC_AgentID" xml:space="preserve">
+    <value>AgentID:</value>
+  </data>
+  <data name="VRC_SelfIP" xml:space="preserve">
+    <value>SelfIP:</value>
+  </data>
+  <data name="VRC_SelfPort" xml:space="preserve">
+    <value>SelfPort:</value>
+  </data>
+  <data name="InitAgentVRC" xml:space="preserve">
+    <value>InitAgentVRC</value>
+  </data>
+  <data name="Uninitialize_VRC" xml:space="preserve">
+    <value>Uninitialize_VRC</value>
+  </data>
+  <data name="startRecordScreen" xml:space="preserve">
+    <value>StartRecordScreen</value>
+  </data>
+  <data name="stopRecordScreen" xml:space="preserve">
+    <value>StopRecordScreen</value>
+  </data>
+  <data name="RadioToRadio" xml:space="preserve">
+    <value>Radio To Radio</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="NeedConfirm" xml:space="preserve">
+    <value>NeedConfirm</value>
+  </data>
+  <data name="SendFile" xml:space="preserve">
+    <value>SendFile</value>
+  </data>
+  <data name="ReceiveFile" xml:space="preserve">
+    <value>ReceiveFile</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="FileMediaType" xml:space="preserve">
+    <value>FileMediaType</value>
+  </data>
+  <data name="LocalPath" xml:space="preserve">
+    <value>LocalPath</value>
+  </data>
+  <data name="RemotePath" xml:space="preserve">
+    <value>RemotePath</value>
+  </data>
+  <data name="TargetAgentId" xml:space="preserve">
+    <value>TargetAgentId</value>
+  </data>
+  <data name="SingleStepSuccTransferEx" xml:space="preserve">
+    <value>SuccTrans_MediaAbility</value>
+  </data>
+  <data name="EmergencyExit" xml:space="preserve">
+    <value>Emergency Exit</value>
+  </data>
+  <data name="GroupAlias" xml:space="preserve">
+    <value>Group Alias</value>
+  </data>
+  <data name="IsConfigUser" xml:space="preserve">
+    <value>Is Config User</value>
+  </data>
+  <data name="MixedAndTempGroupCallStart" xml:space="preserve">
+    <value>MixedAndTempGroupCallStart</value>
+  </data>
+  <data name="Muted" xml:space="preserve">
+    <value>Muted</value>
+  </data>
+  <data name="ReservedSwitch" xml:space="preserve">
+    <value>Reserved Switch</value>
+  </data>
+  <data name="ReleaseAll" xml:space="preserve">
+    <value>Release All Group Call</value>
+  </data>
+</root>

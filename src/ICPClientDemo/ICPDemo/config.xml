@@ -1,0 +1,35 @@
+<configuration>
+  <agentInfo agentId="2015" agentType="Video" phoneNumber="70255" vcPhoneNumber="" />
+  <settings>
+    <setting key="HuaweiCTIServerIP" value="https://10.184.68.229:8043/agentgateway/resource" />
+    <setting key="HuaweiTimeout" value="10000" />
+    <setting key="HuaweiOutboundPrefix" value="" />
+    <setting key="HuaweiExtensionPrefix" value="" />
+    <setting key="HuaweiExtensionLength" value="4" />
+    <setting key="HuaweiSetAutoAnswer" value="false" />
+    <setting key="HuaweiIsEnableACW" value="true" />
+    <setting key="HuaweiPhoneLinkage" value="1" />
+    <setting key="IsForceLogin" value="true" />    
+    <setting key="Language" value="CN" />
+  </settings>
+  <phoneSettings>
+    <phoneSetting key="PhoneNumber" value="70255" />
+    <phoneSetting />
+    <phoneSetting key="DispatchNumber" value="" />
+    <phoneSetting key="SipServerInfo" value="" />
+    <phoneSetting key="SipRealName" value="" />
+    <phoneSetting key="LocalIP" value="127.0.0.1" />
+    <phoneSetting key="LocalSipPort" value="19090" />
+    <phoneSetting key="LocalAudioPort" value="19110" />
+    <phoneSetting key="PhoneUsedMode" value="PhoneEmbeddedMode" />
+    <phoneSetting key="IsAutoAnswerIPT" value="False" />
+    <phoneSetting key="IsAutoAnswerIPCC" value="False" />
+    <phoneSetting key="IsAidEnable" value="False" />
+    <phoneSetting key="MainSpeaker" value="" />
+    <phoneSetting key="MainMic" value="" />
+    <phoneSetting key="VideoDevice" value="" />
+    <phoneSetting key="IsRejectCallAgentNotIdle" value="False" />
+    <phoneSetting key="AidPolicy" value="auto" />
+  </phoneSettings>
+  <uportalSettings />
+</configuration>
